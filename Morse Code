@@ -1,0 +1,105 @@
+// MORSE CODE
+
+//Variables
+int led1 = D7; 
+
+void setup() {
+  pinMode(led1, OUTPUT);
+
+}
+
+void loop() {
+    // First name = Shanuk
+    // 1 unit = 500 milliseconds
+    
+    // S
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+  
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+  
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(1500);
+    
+    // H
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+  
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+  
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(1500);
+    
+    // A
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(1500);
+    
+    // N
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(1500);
+    
+    // U
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(1500);
+    
+    // K
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    delay(500);
+    
+    digitalWrite(led1, HIGH);
+    delay(1500);
+    digitalWrite(led1, LOW);
+    delay(3500);
+}
